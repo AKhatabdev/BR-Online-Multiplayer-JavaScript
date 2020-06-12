@@ -1,0 +1,78 @@
+<!--
+  Title:
+  BATTLE ROYAL!
+  ©2020 Awais Khatab
+
+  Target Browsers: DESKTOP & MOBILE/ Chrome, MS EDGE, Safari
+  Module: CI328
+
+  Copyright 2020, Awais Khatab, All rights reserved.
+-->
+<html>
+  <head>
+    <title>Battle Royal! Online Multiplayer Game</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta property="og:title" content="Battle Royal! Multiplayer Game" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/static/three.js"></script>
+      <link rel="stylesheet" href="startScreenStyles.css">
+  </head>
+  <body style="display: flex; flex-direction: column; width: 100%; height: 100%; margin: 0;">
+    <div>
+        <!-- MODE SELECTION -->
+        <p><b>BattleRoyal!</b></p>
+        <p><b><a href="/static/2d.html">2D Mode</a> | <a href="/">3D Mode</a> </b></p>
+    </div>
+    <div style="flex: 1 1; position: relative; overflow:hidden;">
+        <div id="start-screen" style="width:100%; height:100%; display: flex; align-items: center; position:absolute; z-index:10;">
+            <div style="text-align: center; width: 100%; font-size: xx-large;">
+                <form>
+                <input type="text" name="nickname" id="nickname" placeholder="Enter a nickname" autofocus><br/><br/>
+                </form>
+                <button style="font-size: xx-large;" id="start-button" disabled="disabled">Join Game</button>
+            </div>
+        </div>
+        <!-- CANVAS -->
+        <canvas id="canvas-2d" width="1000" height="1000" style="position: absolute; width: 100%; height: 100%; z-index:2;object-fit: contain;"></canvas>
+        <canvas id="canvas-3d" width="1000" height="1000" style="position: absolute; width: 100%; height: 100%; z-index:1;object-fit: contain;"></canvas>
+    </div>
+    <img id="player-image" src="/static/assets/player.png" style="display: none;">
+  </body>
+  <script>
+      function loadCSSIfNotLoaded () {
+          var ss = document.styleSheets;
+          for (var i = 0, max = ss.length; i < max; i++) {
+          if (ss[i].href === "/static/startScreenStyles.css")
+              return;
+      }
+          var link = document.createElement("link");
+          link.rel = "stylesheet";
+      link.href = "/static/startScreenStyles.css";
+
+      document.getElementsByTagName("head")[0].appendChild(link);
+  }
+
+      <!-- Disable button if !nickname -->
+      (function() {
+          $('form > input').keyup(function() {
+
+              let empty = false;
+              $('form > input').each(function() {
+                  if ($(this).val() == '') {
+                      empty = true;
+                  }
+              });
+
+              if (empty) {
+                  $('#start-button').attr('disabled', 'disabled');
+              } else {
+                  $('#start-button').removeAttr('disabled');
+              }
+          });
+      })()
+
+  loadCSSIfNotLoaded();
+  </script>
+  <script src="/static/game3DView.js"></script>
+</html>

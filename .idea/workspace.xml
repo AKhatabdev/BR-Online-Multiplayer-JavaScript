@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa32ba85-0106-460f-af62-3e90cd58f43c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BattleRoyalCI238" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bizXR8TGTAEAlHObMdm7wC52NH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mac\Documents\JavaScript Games\BattleRoyalCI238\static\assets" />
+      <recent name="C:\Users\mac\Documents\JavaScript Games\BattleRoyalCI238\static" />
+      <recent name="C:\Users\mac\Documents\JavaScript Games\BattleRoyalCI238\static\assets\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mac\Documents\JavaScript Games\BattleRoyalCI238\static\assets" />
+      <recent name="C:\Users\mac\Documents\JavaScript Games\BattleRoyalCI238\static\assets\fonts" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa32ba85-0106-460f-af62-3e90cd58f43c" name="Default Changelist" comment="" />
+      <created>1589129740920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589129740920</updated>
+      <workItem from="1589129743789" duration="2206000" />
+      <workItem from="1589134428335" duration="7263000" />
+      <workItem from="1589203926969" duration="28392000" />
+      <workItem from="1589302266233" duration="3595000" />
+      <workItem from="1589328894518" duration="1852000" />
+      <workItem from="1589393468067" duration="8601000" />
+      <workItem from="1589470629837" duration="25000" />
+      <workItem from="1589477181304" duration="225000" />
+      <workItem from="1589477416264" duration="57000" />
+      <workItem from="1589477520795" duration="8000" />
+      <workItem from="1589477783760" duration="13280000" />
+      <workItem from="1589493324926" duration="1193000" />
+      <workItem from="1589571307006" duration="5435000" />
+      <workItem from="1589576755131" duration="54000" />
+      <workItem from="1589846788845" duration="3050000" />
+      <workItem from="1589908533620" duration="599000" />
+      <workItem from="1590167381564" duration="6884000" />
+      <workItem from="1590380553734" duration="4866000" />
+      <workItem from="1590387718036" duration="1771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="909" y="362" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589493117683">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="909" y="362" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/3440.-1579.1440.2520@0.0.3440.1400" timestamp="1589493117683" />
+    <state x="446" y="536" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589478099652">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="446" y="536" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400/3440.-1473.1440.2520@0.0.3440.1400" timestamp="1589206491708" />
+    <state x="446" y="536" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400/3440.-1579.1440.2520@0.0.3440.1400" timestamp="1589478099652" />
+    <state x="1478" y="572" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589490734710">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1478" y="572" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.3440.1400/3440.-1473.1440.2520@0.0.3440.1400" timestamp="1589393825025" />
+    <state x="1478" y="572" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.3440.1400/3440.-1579.1440.2520@0.0.3440.1400" timestamp="1589490734710" />
+    <state x="1387" y="517" key="FileChooserDialogImpl" timestamp="1589494428368">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1387" y="517" key="FileChooserDialogImpl/0.0.3440.1400/3440.-1473.1440.2520@0.0.3440.1400" timestamp="1589140824264" />
+    <state x="1387" y="517" key="FileChooserDialogImpl/0.0.3440.1400/3440.-1579.1440.2520@0.0.3440.1400" timestamp="1589494428368" />
+    <state x="393" y="418" key="new project wizard" timestamp="1589230068015">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="393" y="418" key="new project wizard/0.0.3440.1400/3440.-1473.1440.2520@0.0.3440.1400" timestamp="1589230068015" />
+    <state x="673" y="316" width="672" height="678" key="search.everywhere.popup" timestamp="1589491123837">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="673" y="316" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400/3440.-1473.1440.2520@0.0.3440.1400" timestamp="1589235283839" />
+    <state x="673" y="316" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400/3440.-1579.1440.2520@0.0.3440.1400" timestamp="1589491123837" />
+  </component>
+</project>
