@@ -19,7 +19,7 @@ const server = http.Server(app);
 const io = socketIO(server);
 const yargs = require('yargs').argv;
 //FIELD BOUNDS
-const FIELD_WIDTH = 1000, FIELD_HEIGHT = 1000; //1000 , 1000 PLAYER BOUNDS TODO
+const FIELD_WIDTH = 1000, FIELD_HEIGHT = 1000; //1000 , 1000 PLAYER BOUNDS
 
 /**
  * GAME OBJECTS
@@ -36,7 +36,7 @@ class GameObject{
     //COLLISION DETECTION
     move(distance){
         const oldX = this.x, oldY = this.y;
-        
+
         this.x += distance * Math.cos(this.angle);
         this.y += distance * Math.sin(this.angle);
         //COLLISION DETECT
@@ -126,13 +126,12 @@ class Player extends GameObject{
             console.log("Object: Damage");
         }
     }
-    //REMOVE PLAYER TODO: Add Remove Player
+    //REMOVE PLAYER
     remove(){
         delete players[this.id];
         io.to(this.socketId).emit('dead');
         console.log("Player Died: " + this.nickname);
     }
-    //TODO: Check assignments @JSON
     toJSON(){
         return Object.assign(super.toJSON(), {health: this.health, maxHealth: this.maxHealth, socketId: this.socketId, point: this.point, nickname: this.nickname});
     }
@@ -161,7 +160,6 @@ class Bullet extends GameObject{
 
 /**
  * AI BOT CLASS
- * TODO: Add follow Nearest Players Function for more AI like BOT - Research
  */
 class BotPlayer extends Player{
     constructor(obj){

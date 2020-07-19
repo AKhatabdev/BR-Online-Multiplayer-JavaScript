@@ -34,7 +34,7 @@ const bulletTexture = new THREE.TextureLoader().load("/static/assets/bulletMapGo
 
 // SCENE/CAMERA
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 100, 1, 0.1, 3000 ); //TODO Adjust Render Distance *FIXED*
+const camera = new THREE.PerspectiveCamera( 100, 1, 0.1, 3000 );
 
 // FLOOR
 const floorGeometry = new THREE.PlaneGeometry(1000, 1000, 1, 1); //FLOOR SIZE 1000 . 1000
@@ -82,8 +82,6 @@ scene.add(ambient);
 const loader = new THREE.FontLoader();
 let font;
 loader.load('/static/assets/fonts/helvetiker_bold.typeface.json', function(font_) {font = font_;});
-
-
 
 //SOUND FX
 let soundHit, musicBG, soundDeath;
@@ -213,7 +211,7 @@ $('#canvas-2d').on('touchend', (event)=>{
 const Meshes = [];
 socket.on('state', (players, bullets, walls) => {
     Object.values(Meshes).forEach((mesh) => {mesh.used = false;});
-    
+
     // Players
     Object.values(players).forEach((player) => {
         let playerMesh = Meshes[player.id];
@@ -328,7 +326,7 @@ socket.on('state', (players, bullets, walls) => {
                 player.y + player.height/2 - 150 * Math.sin(player.angle)
             );
 			camera.rotation.set(0, - player.angle - Math.PI/2, 0);
-			
+
 			// Canvas SCORE
             context.clearRect(0, 0, canvas2d.width, canvas2d.height);
             context.font = '30px Bold Helvetica';
@@ -336,7 +334,7 @@ socket.on('state', (players, bullets, walls) => {
             context.fillText('SCORE: ' + player.point, 40, 60);
         }
     });
-    
+
     // Bullets
     Object.values(bullets).forEach((bullet) => {
         let mesh = Meshes[bullet.id];
@@ -355,7 +353,7 @@ socket.on('state', (players, bullets, walls) => {
             console.log("Object: Bullet");
         }
     });
-    
+
     // Walls
     Object.values(walls).forEach((wall) => {
         let mesh = Meshes[wall.id];
