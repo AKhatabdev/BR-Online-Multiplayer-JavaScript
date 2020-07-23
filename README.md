@@ -5,6 +5,8 @@ Copyright 2020, Awais Khatab, All rights reserved.
 
 Instagram: @interdimensional_pancake.dev
 
+gitHub: AKhatabdev
+
 HTML5, JavaScript, Node.JS, JQuery, Socket.io, Express, Three.JS
 
 # How to start
